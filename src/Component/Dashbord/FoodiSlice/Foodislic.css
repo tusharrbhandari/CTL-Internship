@@ -1,0 +1,184 @@
+body {
+    display: flex;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+.container {
+    width: 950px;
+    height: 970px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 0px 10px 1px black;
+}
+
+.right-container{
+    display: flex;
+    flex: 6;
+    flex-direction: column;
+    background-color: #eeeeeea3;
+    padding: 10px 20px 10px 5px;
+}
+.heading-contant{
+    display: flex;
+    flex: 0.05;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+    padding-left: 12px;
+}
+/* Main Conatiner */
+.main-right-container{
+    display: flex;
+    flex: 1;
+}
+/* Main Left Conatiner */
+.bottom-left-conatiner{
+    display: flex;
+    flex: 3;
+    flex-direction: column;
+}
+.explore-cat-options{
+    display: flex;
+    flex-direction: column;
+}
+.exp-cat-boxes{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+}
+.exp-cat-boxe{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    background-color: #fff;
+    font-size: 13px;
+    margin: 10px 10px 5px 10px;
+    border-radius: 10px;
+    
+}
+.exp-cat-boxe:hover{
+    border: 1.5px solid rgba(255, 68, 0, 0.537);
+    background-color:  rgba(255, 69, 1, 0.105);
+    color:rgba(255, 42, 0, 0.647) ;
+}
+.exp-cat-boxe .f-img{
+    padding: 8px;
+    margin:5px 10px 5px 10px;
+    display: flex;
+    align-items: center;
+    background-color: #f0f0f0d5;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.exp-cat-boxe .f-img img{
+    width: 35px;
+}
+.sub-heading{
+    display: flex;
+    flex: 0.07;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+.s-heading{
+    margin-top: 20px;
+    margin-left: 12px;
+    padding-bottom: 10px;
+}
+.s-heading:hover{
+    border-bottom: 2px solid rgb(255, 89, 0);
+}
+.main-contant-boxs-1{
+    display: flex;
+    flex-direction: row;
+    flex: 1;    
+}
+.main-box1{
+    background-color: #fff;
+    margin: 10px 10px 5px 10px;
+    padding: 10px 20px 10px 20px;
+    border-radius: 12px;
+    border: 2.2px solid rgb(255, 89, 0);
+
+}
+.main-box2:hover{
+    border: 2.2px solid rgb(255, 89, 0);
+}
+.main-box1 img{
+    width: 250px;
+    border-radius: 12px;
+}
+.main-box1 .sub-heading{
+    padding:10px 8px 0px 0px;
+}
+
+
+.main-contant-boxs-2{
+    display: flex;
+    flex-direction: row;
+    flex: 1; 
+}
+
+.main-box2{
+    background-color: #fff;
+    margin: 10px 10px 5px 10px;
+    padding: 10px 20px 10px 20px;
+    border-radius: 12px;
+}
+.main-box2 img{
+    width: 250px;
+    border-radius: 12px;
+}
+.food-amount{
+    display: flex;
+    padding: 5px 0px 10px 0px;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+.price-heading a{
+    text-decoration: none;
+    color:  rgb(255, 89, 0);
+    font-weight: bolder;
+    font-size: 20px;
+    padding-right: 3px;
+}
+.line-through{
+    font-size: 12px;
+    color:#494747d5;
+    text-decoration: line-through
+}
+.review img{
+    width: 13px;
+}
+.review{
+    font-size: 13px;
+    color:#494747d5;
+}
+.food-buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.whishlist-button{
+    width: 120px;
+    padding: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.138);
+    border-radius: 10px;
+    font-size: 15px;
+    padding-top: 10px;
+}
+.order-now{
+    width: 120px;
+    padding: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.138);
+    border-radius: 10px;
+    background-color: rgb(255, 89, 0) ;
+    color: #fff;
+    font-size: 15px;
+    padding-top: 10px;
+}
+
