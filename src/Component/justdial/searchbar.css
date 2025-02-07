@@ -1,0 +1,240 @@
+.just,.dial{
+    
+        display: inline-block;
+        vertical-align: middle;
+       
+}
+
+.just{
+    color: rgb(0, 123, 255);
+    font-size: large;
+    font-weight: bolder;
+}
+.dial{
+    color: rgb(255, 140, 0);
+    font-size: large;
+    font-weight: bolder;
+}
+
+
+.l-header,.header{
+    display: inline-block;
+    vertical-align: middle;
+}
+.l-header{
+    display: inline-block;
+}
+
+.header{
+    padding-left: 180px;
+}
+
+p{
+    display: inline-block;
+    vertical-align: middle ;
+}
+.header{
+    display: inline-block;
+    vertical-align: middle ;
+}
+.language {
+
+
+padding-right: 20px;
+}
+.hiring{
+    padding-right: 20px;
+    /* font-size: large; */
+    font-weight: bolder;
+    }
+.invester{
+    padding-right: 20px;
+    /* font-size: large; */
+    font-weight: bolder;
+}
+
+.lead{
+    padding-right: 20px;
+    font-weight: bolder;
+    
+}
+
+.advertize{
+    padding-right: 20px;
+    font-weight: bolder;
+}
+.listening{
+    padding-right: 20px;
+
+    bottom: 10px;
+    font-weight: bolder;
+}
+.bell{
+    padding-right: 20px;
+    font-weight: bolder;
+}
+.upin{
+    padding-right: 20px;
+    font-weight: bolder;
+    border: 2px solid black;
+    background-color: rgb(0, 136, 255);
+    color: white;
+}
+
+h6{
+    position: absolute;
+    top: 0;
+    left: 830px;
+    background-color: red;
+    border-radius: 5px;
+    padding: 2px 5px;
+    color: white;
+  
+    
+}
+i{
+    padding-bottom: 5px;
+}
+
+
+.language svg {
+    width: 30px; 
+    height: 30px;
+    vertical-align: middle;
+    /* color: rgb(9, 196, 253); */
+}
+
+
+.lead svg{
+    width: 20px; 
+    height: 20px;
+    vertical-align: middle;
+
+}
+
+.advertize svg{
+    width: 20px; 
+    height: 20px;
+    vertical-align: middle;
+}
+
+.listening svg{
+    width: 20px; 
+    height: 20px;
+    vertical-align: middle;
+}
+
+.bell svg{
+    width: 20px; 
+    height: 20px;
+    vertical-align: middle;
+    padding-left: 5px;  
+}
+
+.search,.buss{
+    display: inline-block;
+        vertical-align: middle;
+        font-size: larger;
+}
+
+.buss{
+    color: rgb(0, 136, 255); 
+}
+
+.location{
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    width:200px;
+    height: 30px;
+    border-radius: 5px;
+    padding-left: 50px;
+}
+.location.map{
+    display: flex;
+    justify-content: center;
+}
+
+.location:hover{
+    background-color: #ccc;
+    color: black;
+}
+
+.inpt{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    padding-left: 150px;
+    width: 1000px;
+    height: 30px;
+}
+
+/* .inpt input{
+    padding-left: 300px;
+
+} */
+.inpt .fa-microphone {
+    position: absolute;
+    /* top: 12px; */
+    margin-right: 10px;
+    /* font-size: 18px;
+    color: #666;
+    cursor: pointer; */
+  }
+  
+  .inpt .search-btn {
+    position: absolute;
+    margin-left: 430px;
+    border: 2px solid black;
+    width: 20px;
+    height:20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 157, 0);
+    color: white;
+
+  }
+
+  .microph{
+    position: absolute;
+    margin-left: 400px;
+    padding-left: 10px;
+    display: flex;
+    justify-content: center;
+    color: rgb(0, 128, 255);
+  }
+  
+  .inpt input[type="search"] {
+    padding-left: 40px; 
+    /* padding-right: 40px; */
+    width: 470px;
+    height:31px ;
+    border: 2px solid black;
+  }
+  
+  .download {
+    display: inline;
+    white-space: nowrap;
+    padding-left: 200px;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    height: 30px;
+
+    
+  }
+  .download  span{
+    border: 2px solid black;
+     border-radius: 10px;
+  }
+
+  .dbtn{
+    border: 2px solid black;
+    height: 80px;
+    display: flex;
+    align-items: center ;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 10px;
+  }
