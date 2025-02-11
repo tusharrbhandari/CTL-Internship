@@ -213,17 +213,15 @@ i{
     border: 2px solid black;
   }
   
-  .download {
+  /* /* .download {
     display: inline;
     white-space: nowrap;
     padding-left: 200px;
     display: flex;
     justify-content: center;
     /* align-items: center; */
-    height: 30px;
+    /* height: 30px; */ */
 
-    
-  }
   .download  span{
     border: 2px solid black;
      border-radius: 10px;
