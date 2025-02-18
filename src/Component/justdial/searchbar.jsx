@@ -44,8 +44,8 @@ function Searchbar() {
       <div className="microph"><FaMicrophone/></div>
       <div className="search-btn"><FaSearch/></div>
       {/* <button>Search</button> */}</div>
-{/* 
-      <div className="download"><span>Download App</span></div> */}
+
+      <div className="download"><span>Download App</span></div>
     <div className="dbtn"><FaDownload/></div>
     </div>
     </div>

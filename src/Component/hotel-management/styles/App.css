@@ -1,0 +1,63 @@
+:root {
+  --primary-color: #1a5f7a;
+  --secondary-color: #e8f4f8;
+  --text-color: #333;
+  --border-radius: 12px;
+}
+
+.app-container {
+  max-width: 480px;
+  margin: 0 auto;
+  background-color: #e8f4f8;
+  min-height: 100vh;
+  position: relative;
+  padding-bottom: 80px;
+}
+
+.header {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: transparent;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.user-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.user-details h2 {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 600;
+  color: #333;
+}
+
+.user-details p {
+  margin: 0;
+  font-size: 14px;
+  color: #666;
+}
+
+.notification-icon {
+  background: white;
+  border: none;
+  cursor: pointer;
+  padding: 8px;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
