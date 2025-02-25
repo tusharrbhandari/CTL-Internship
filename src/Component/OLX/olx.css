@@ -1,0 +1,72 @@
+.app-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+    min-height: 100vh;
+  }
+  
+  .property-listing {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  
+  .property-header {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .price-section h1 {
+    font-size: 2rem;
+    margin: 0;
+    color: #333;
+  }
+  
+  .price-section p {
+    margin: 5px 0;
+    color: #666;
+  }
+  
+  .location {
+    color: #888;
+    font-size: 0.9rem;
+  }
+  
+  .action-buttons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .share-button,
+  .favorite-button {
+    padding: 8px 16px;
+    border: 1px solid #ddd;
+    background: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+  
+  .share-button:hover,
+  .favorite-button:hover {
+    background-color: #f5f5f5;
+  }
+  
+  .property-description {
+    padding: 20px;
+  }
+  
+  .property-description h2 {
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  .property-description p {
+    color: #666;
+    line-height: 1.6;
+  }

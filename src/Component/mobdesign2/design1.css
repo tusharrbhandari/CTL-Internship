@@ -1,0 +1,48 @@
+.app {
+    max-width: 480px;
+    margin: 0 auto;
+    background-color: #f8f8f8;
+    min-height: 100vh;
+    padding-bottom: 70px;
+  }
+  
+  .main-content {
+    padding: 20px;
+  }
+  
+  .section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .section-header h2 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #333;
+  }
+  
+  .see-all {
+    color: #ff7757;
+    background: none;
+    border: none;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+  }
+  
+  .popular-hotels,
+  .low-cost-hotels {
+    margin-bottom: 32px;
+  }
+  
+  .popular-hotels .hotel-card {
+    border-radius: 24px;
+    overflow: hidden;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+  }
+  
+  .popular-hotels .hotel-image {
+    height: 241px;
+  }

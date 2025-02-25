@@ -1,0 +1,17 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 22px;
+}
+
+.header h1 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #3f3f3f;
+}
+
+.search-icon {
+  cursor: pointer;
+  color: #666;
+}
